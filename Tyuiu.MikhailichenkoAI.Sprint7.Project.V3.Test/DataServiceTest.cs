@@ -79,7 +79,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint7.Project.V3.Test
 
             if (File.Exists(path))
             {
-                File.Delete(path);
+                File.Delete(path); 
             }
         }
 

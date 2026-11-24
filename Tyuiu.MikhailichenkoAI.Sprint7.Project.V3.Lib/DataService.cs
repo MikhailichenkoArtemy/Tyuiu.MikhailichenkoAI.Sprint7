@@ -12,7 +12,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint7.Project.V3.Lib
 
         public List<UniversityRecord> LoadFromCsv(string path)
         {
-            List<UniversityRecord> records = new List<UniversityRecord>();
+            List<UniversityRecord> records = new List<UniversityRecord>(); 
             if (!File.Exists(path))
             {
                 return records;
